@@ -1,4 +1,4 @@
-# berkeley-waitlist-watch
+# Cal Waitlist Notifications
 
 Get a notification the moment a UC Berkeley class waitlist moves.
 
@@ -26,8 +26,8 @@ Requests go through the system `curl` rather than Python's `urllib`, since many 
 ## Setup (macOS)
 
 ```bash
-git clone https://github.com/<you>/berkeley-waitlist-watch.git
-cd berkeley-waitlist-watch
+git clone https://github.com/JiunSull/cal-waitlist-notifications.git
+cd cal-waitlist-notifications
 cp config.example.json config.json      # then edit: term + classes to watch
 python3 waitlist_watch.py --test        # should pop a notification
 python3 waitlist_watch.py --once        # prints current numbers, no notifications
