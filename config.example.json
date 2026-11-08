@@ -1,0 +1,10 @@
+{
+  "year": 2027,
+  "semester": "Spring",
+  "check_every_min": 5,
+  "notify_enrolled_changes": false,
+  "classes": [
+    {"subject": "PHYSICS", "number": "105", "section": "001", "label": "Physics 105"},
+    {"subject": "COMPSCI", "number": "188", "section": "001", "label": "CS 188"}
+  ]
+}
